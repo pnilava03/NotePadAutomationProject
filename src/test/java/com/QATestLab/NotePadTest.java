@@ -67,8 +67,7 @@ public class NotePadTest {
 
 		driver.findElement(By.name("Edit")).click();
 		driver.findElement(By.name("Time/Date")).click();
-		
-
+	
 	}
 
 }
