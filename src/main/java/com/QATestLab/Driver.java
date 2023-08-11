@@ -17,9 +17,7 @@ public class Driver {
 		caps.setCapability("app", applicationPath);
 		caps.setCapability("platform", "Windows");
 		caps.setCapability("deviceName", "WindowsPC");
-
 		driver = new WindowsDriver(new URL("http://127.0.0.1:4723/"), caps);
-
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 }
