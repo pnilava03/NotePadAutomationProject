@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T02:47:24 IST" name="Default suite" finished-at="2023-08-12T02:47:41 IST" duration-ms="17198">
+  <suite started-at="2023-08-12T03:19:33 IST" name="Default suite" finished-at="2023-08-12T03:19:44 IST" duration-ms="11003">
     <groups>
     </groups>
-    <test started-at="2023-08-12T02:47:24 IST" name="Default test" finished-at="2023-08-12T02:47:41 IST" duration-ms="17198">
+    <test started-at="2023-08-12T03:19:33 IST" name="Default test" finished-at="2023-08-12T03:19:44 IST" duration-ms="11003">
       <class name="com.QATestLab.NotePadTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:24 IST" name="setUp" finished-at="2023-08-12T02:47:25 IST" duration-ms="998" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.QATestLab.NotePadTest@1a482e36]" started-at="2023-08-12T03:19:33 IST" name="setUp" finished-at="2023-08-12T03:19:34 IST" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="open_NewWindowFromFileMenu()[pri:1, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:25 IST" name="open_NewWindowFromFileMenu" finished-at="2023-08-12T02:47:25 IST" duration-ms="738" status="PASS">
+        <test-method signature="open_NewWindowFromFileMenu()[pri:1, instance:com.QATestLab.NotePadTest@1a482e36]" started-at="2023-08-12T03:19:34 IST" name="open_NewWindowFromFileMenu" finished-at="2023-08-12T03:19:34 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_NewWindowFromFileMenu -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:25 IST" name="cleanUp" finished-at="2023-08-12T02:47:26 IST" duration-ms="550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method signature="typeOnNotePad()[pri:2, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:26 IST" name="typeOnNotePad" finished-at="2023-08-12T02:47:35 IST" duration-ms="9402" status="PASS">
+        <test-method signature="typeOnNotePad()[pri:2, instance:com.QATestLab.NotePadTest@1a482e36]" started-at="2023-08-12T03:19:34 IST" name="typeOnNotePad" finished-at="2023-08-12T03:19:44 IST" duration-ms="9332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- typeOnNotePad -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:35 IST" name="cleanUp" finished-at="2023-08-12T02:47:41 IST" duration-ms="5462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.QATestLab.NotePadTest@6cf0e0ba]" started-at="2023-08-12T02:47:41 IST" name="tearDown" finished-at="2023-08-12T02:47:41 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.QATestLab.NotePadTest@1a482e36]" started-at="2023-08-12T03:19:44 IST" name="tearDown" finished-at="2023-08-12T03:19:49 IST" duration-ms="5027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
