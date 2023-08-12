@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.QATestLab.NotePadTest">
+      <class name="com.QATestLab.Test.NotePadTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="changeNotePadFont"/>
           <include name="setUp"/>
-          <include name="typeOnNotePad"/>
+          <include name="tearDown"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- com.QATestLab.NotePadTest -->
+      </class> <!-- com.QATestLab.Test.NotePadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

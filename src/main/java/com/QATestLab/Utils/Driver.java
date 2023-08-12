@@ -1,4 +1,4 @@
-package com.QATestLab;
+package com.QATestLab.Utils;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,6 +19,10 @@ public class Driver {
 		caps.setCapability("deviceName", "WindowsPC");
 		driver = new WindowsDriver(new URL("http://127.0.0.1:4723/"), caps);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	
+	public static void closeTheApplication() {
+		Driver.driver.quit();
 	}
 }
 
