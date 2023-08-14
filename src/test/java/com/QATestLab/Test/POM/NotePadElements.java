@@ -23,7 +23,7 @@ public class NotePadElements {
 	private By clickOnFont=By.name("Font");
 	private By clcikOnDropdownValue=By.name("Candara");
 	private By clickOnBack=By.name("Back");
-	
+		
 	
 	ExcelSheet excel=new ExcelSheet("excelSheet_Path");
 
